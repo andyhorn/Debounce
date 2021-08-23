@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>Andrew Horn</Authors>
+    <Company>Andrew Horn</Company>
+    <PackageId>Horn.Debounce</PackageId>
+    <Description>The Debouncer only allows a function to be called once, after a specified interval between calls has been reached.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>WPF Debounce Event Throttle</PackageTags>
+    <PackageReleaseNotes>Initial Release with full functionality.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
