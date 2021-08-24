@@ -5,8 +5,8 @@
     <UseWPF>true</UseWPF>
     <Authors>Andrew Horn</Authors>
     <Company>Andrew Horn</Company>
-    <PackageId>Horn.Debounce</PackageId>
-    <Description>The Debouncer only allows a function to be called once, after a specified interval between calls has been reached.</Description>
+    <PackageId>Debounce.WPF</PackageId>
+    <Description>Debouncing prevents functions from executing "too rapidly" or "too many times" by requiring an interval after the last call before execution. This project provides a Debouncer specially built for WPF front-end projects.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>WPF Debounce Event Throttle</PackageTags>
     <PackageReleaseNotes>Initial Release with full functionality.</PackageReleaseNotes>

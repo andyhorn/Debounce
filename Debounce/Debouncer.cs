@@ -9,8 +9,7 @@ namespace Debounce
     /// </summary>
     public class Debouncer
     {
-        private readonly Action<object> _action;
-        private readonly object _parameter;
+        private readonly Action _action;
         private readonly int _interval;
         private DispatcherTimer _timer;
 
@@ -18,12 +17,10 @@ namespace Debounce
         /// Initializes a new instance of the <see cref="Debouncer"/> class.
         /// </summary>
         /// <param name="action">The <see cref="Action"/> to be executed.</param>
-        /// <param name="parameter">An optional parameter for the action.</param>
-        public Debouncer(Action<object> action, int intervalMs, object parameter = null)
+        public Debouncer(Action action, int intervalMs)
         {
             _action = action;
             _interval = intervalMs;
-            _parameter = parameter;
         }
 
         /// <summary>
@@ -64,7 +61,7 @@ namespace Debounce
             // Stop the current timer and invoke the action.
             _timer?.Stop();
             _timer = null;
-            _action.Invoke(_parameter);
+            _action.Invoke();
         }
     }
 }
