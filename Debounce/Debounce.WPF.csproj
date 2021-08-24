@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,6 +10,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>WPF Debounce Event Throttle</PackageTags>
     <PackageReleaseNotes>Initial Release with full functionality.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/andyhorn/Debounce</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
