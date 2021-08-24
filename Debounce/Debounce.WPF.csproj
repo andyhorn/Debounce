@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,7 +6,9 @@
     <Authors>Andrew Horn</Authors>
     <Company>Andrew Horn</Company>
     <PackageId>Debounce.WPF</PackageId>
-    <Description>Debouncing prevents functions from executing "too rapidly" or "too many times" by requiring an interval after the last call before execution. This project provides a Debouncer specially built for WPF front-end projects.</Description>
+    <Description>Debouncing prevents function calls from executing too rapidly or too many times by only executing once if the calls occured too close together.
+
+This package provides a Debouncer for WPF projects that utilizes the Dispatcher to ensure execution on the UI thread.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>WPF Debounce Event Throttle</PackageTags>
     <PackageReleaseNotes>Initial Release with full functionality.</PackageReleaseNotes>

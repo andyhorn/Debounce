@@ -1,13 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>Debouncing prevents function calls from occurring "too rapidly" or "too many times" by waiting for a specified interval with no calls before execution. This package provides a Debouncer that works in any .Net Core project.</Description>
+    <Description>Debouncing prevents function calls from executing too rapidly or too many times by only executing once if the calls occured too close together.
+
+This package provides a Debouncer for any .Net Core project.</Description>
     <RepositoryUrl>https://github.com/andyhorn/Debounce</RepositoryUrl>
     <PackageTags>Debounce .Net Core Throttle</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <Authors>Andrew Horn</Authors>
+    <PackageProjectUrl>https://github.com/andyhorn/Debounce</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
