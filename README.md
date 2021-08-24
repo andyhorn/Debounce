@@ -1,6 +1,21 @@
 # Debounce
 Class libraries containing debouncers for .Net Core and WPF projects.
 
+## Nuget
+Both packages are now available on Nuget.org!
+
+Debounce.Core: 
+
+https://www.nuget.org/packages/Debounce.Core/
+
+`dotnet add package Debounce.Core --version 1.0.0`
+    
+Debounce.WPF: 
+
+https://www.nuget.org/packages/Debounce.WPF/
+
+`dotnet add package Debounce.WPF --version 1.0.0`
+
 ## Overview
 The `Debouncer` class prevents an `Action` from executing "too many times" or "too frequently."
 
