@@ -13,6 +13,7 @@ This package provides a Debouncer for WPF projects that utilizes the Dispatcher 
     <PackageTags>WPF Debounce Event Throttle</PackageTags>
     <PackageReleaseNotes>Initial Release with full functionality.</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/andyhorn/Debounce</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andyhorn/Debounce</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
